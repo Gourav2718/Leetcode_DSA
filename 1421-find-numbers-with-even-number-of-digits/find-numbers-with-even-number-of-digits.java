@@ -16,15 +16,15 @@ class Solution {
     }
 
     int Digits(int nums){
-        // int count = 0;
+        int count = 0;
 
-        // while(nums > 0){
-        //     count ++;
-        //     nums /= 10;
-        // }
+        while(nums > 0){
+            count ++;
+            nums /= 10;
+        }
 
-        String s = String.valueOf(nums); 
-        int count = s.length(); 
+        // String s = String.valueOf(nums); 
+        // int count = s.length(); 
         return count;
     }
 }
